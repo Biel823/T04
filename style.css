@@ -1,0 +1,58 @@
+.responsive-svg-container {
+    margin: 0 auto;     /* Center the container */
+    width: 100%;        /* Fill parent width */
+    max-width: 1200px;  /* Maximum width */
+
+    /* T04-7 Responsive Chart Container */
+
+.responsive-svg-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+}
+
+/* SVG chart */
+
+.responsive-svg-container svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Blue bars */
+
+.responsive-svg-container .bar {
+    fill: steelblue;
+    transition: fill 0.2s ease;
+}
+
+/* Hover effect */
+
+.responsive-svg-container .bar:hover {
+    fill: #245d89;
+}
+
+/* TV brand labels */
+
+.responsive-svg-container .brand-label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: #263445;
+    font-weight: 500;
+}
+
+/* Count labels */
+
+.responsive-svg-container .count-label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: #263445;
+    font-weight: bold;
+}
+}
